@@ -1,5 +1,6 @@
 #!/bin/bash
 # Define the download URL for ngrok (update to the latest version if needed)
+rm nohup.out 
 NGROK_URL="https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip"
 
 # Define the ngrok authentication token (replace with your own token)
